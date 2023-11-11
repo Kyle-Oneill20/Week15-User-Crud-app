@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+ background-color: red;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{background-color: lightblue;}
+.form{
+  padding: 1em;
+  margin-bottom: 1em;
+  size: large;
+}
+label{
+  margin: 10px;
+  font-size: x-large;
+}
+input{
+  margin: 10px;
+  border: red;
+  background-color: antiquewhite;
+}
+button{
+  border-color: red;
+  background-color:antiquewhite;
+  font-size: large;
+}
+head{
+  background-color: red;
+}
+
+div{
+  border: 5px solid black;
+  padding: 10px;
+}
+#userDisplay{
+  padding: 1rem;
+  font-size: larger;
+  background-color:lightblue;
+}
