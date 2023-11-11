@@ -1,3 +1,8 @@
+This is my project I worked very hard to get working. I will continute to work on it and Edit it most likely tweaking this until it becomes my final project to be completely honest. 
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
