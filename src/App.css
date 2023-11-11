@@ -3,10 +3,15 @@
  background-color: red;
  font-family: Georgia, 'Times New Roman', Times, serif;
 }
-body{background-color: lightblue;}
-.form{
-  padding: 1em;
-  margin-bottom: 1em;
+body{
+  background-color: lightblue;
+}
+h3{
+  margin-top: 5px;
+}
+form{
+  padding: 5px;
+  margin-bottom: 5px;
   size: large;
 }
 label{
@@ -29,10 +34,22 @@ head{
 
 div{
   border: 5px solid black;
-  padding: 10px;
+  padding: 5px;
 }
 #userDisplay{
-  padding: 1rem;
+  padding: 5px;
   font-size: larger;
   background-color:lightblue;
+}
+header{
+  text-transform:uppercase;
+}
+h4{
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-size: larger;
+}
+p{
+  margin: 12px;
+
 }

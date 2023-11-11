@@ -73,7 +73,9 @@ const[updatedCompanyName,setUpdatedCompanyName]=useState('')
   
   return (
     <div className="App">
-    
+    <header>
+      <h1>User Employement Information</h1>
+    </header>
       <form>
         <h3>Post new user form</h3>
         <label>Name</label>
@@ -91,9 +93,10 @@ const[updatedCompanyName,setUpdatedCompanyName]=useState('')
      
       <div className='userContainer' key={index}>
         <div id='userDisplay'>
-        Name : { user.name } <br></br>
-        Job Title : { user.jobTitle }<br></br>
-        Company Name : { user.companyName }<br></br>  
+          <h4>User #{user.id}</h4>
+        <p>Name : { user.name } <br></br></p>
+        <p>Job Title : { user.jobTitle }<br></br></p>
+        <p>Company Name : { user.companyName }<br></br></p>  
         <button onClick={()=>deleteUser(user.id)}>Delete</button>
         </div> 
         <form>
